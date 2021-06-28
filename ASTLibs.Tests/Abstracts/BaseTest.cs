@@ -1,6 +1,6 @@
 ﻿using Xunit.Abstractions;
 
-namespace ASTLibs.Tests
+namespace ASTLibs.Tests.Abstracts
 {
     public abstract class BaseTest
     {

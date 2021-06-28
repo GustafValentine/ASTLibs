@@ -1,5 +1,6 @@
 using System.Diagnostics;
 using ASTLibs.Numbers;
+using ASTLibs.Tests.Abstracts;
 using Xunit;
 using Xunit.Abstractions;
 
@@ -30,7 +31,7 @@ namespace ASTLibs.Tests.Numbers
             Assert.Equal(50m, b.PercentageChange(a));
             Debug.WriteLine(stopwatch.ElapsedTicks.ToString());
         }
-        
+
         [Fact]
         public void Test_PercentageRatio()
         {
